@@ -1,0 +1,14 @@
+{
+  "name": "es-queryd",
+  "description": "",
+  "version": "0.0.1",
+  "main": "./es-queryd.js",
+  "scripts": {
+    "test": "echo hallo"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.5.0",
+    "fastify": "^4.10.0",
+    "meow": "^11.0.0"
+  }
+}

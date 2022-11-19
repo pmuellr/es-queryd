@@ -1,0 +1,15 @@
+# sample config file for es-queryd - https://github.com/pmuellr/es-queryd
+
+# The location of the server config file, which contains the
+# list of servers, credentials, and short names.
+# The default for this property value is ~/.es-queryd/server-config.yaml
+server-config: ./server-config.yaml
+
+# The location of the modules which implement the HTTP endpoints.
+# May be a string or array of strings.
+# The default for this property value is ./apis
+api-dirs: ./apis
+
+# Whether to provide open-ended CORS headers.
+# The default for this property value is false
+cors: true

@@ -1,0 +1,29 @@
+# A list of elastic search servers, each an object, with a `name`
+# property, and any other properties suitable for the elasticsearch
+# Client constructor: 
+# https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/client-connecting.html
+
+servers:
+
+- name: local
+  node: http://localhost:9200
+  auth:
+    username: elastic
+    password: changeme
+    tls:
+      rejectUnauthorized: false
+
+- name: locals
+  node: https://localhost:9200
+  auth:
+    username: elastic
+    password: changeme
+    tls:
+      rejectUnauthorized: false
+
+- name: locala
+  node: https://localhost:9200
+  auth:
+    apiKey: can-also-use-API-keys
+    tls:
+      rejectUnauthorized: false
