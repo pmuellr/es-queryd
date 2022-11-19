@@ -1,6 +1,6 @@
 {
   "name": "es-queryd",
-  "description": "",
+  "description": "http server API wrappers over elasticsearch queries",
   "version": "0.0.1",
   "main": "./es-queryd.js",
   "scripts": {
